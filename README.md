@@ -27,6 +27,14 @@ You'll be asked to sign in to hedwigai the first time a skill calls the MCP.
 
 **Claude (web, desktop, mobile)** — connect hedwigai from the [connector directory](https://claude.ai/directory/hedwigai), then ask for what you need, for example *"Write a diligence memo on Alterity Therapeutics"*.
 
+**Codex, Cursor and other agents** — install the skills with the [skills CLI](https://skills.sh):
+
+```
+npx skills add un-seen/hedwigai-skills
+```
+
+then add `https://mcp.hedwigai.com/` as a remote MCP server in that agent.
+
 **Any other MCP client** — add `https://mcp.hedwigai.com/` as a remote MCP server. The `SKILL.md` files are plain Markdown and work as instructions for any agent.
 
 ## What it costs
