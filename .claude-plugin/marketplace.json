@@ -1,0 +1,15 @@
+{
+  "name": "hedwigai",
+  "description": "Skills and the hedwigai MCP for primary-source research: biotech diligence, SEC filings, FDA records, Form D raises and US import records.",
+  "owner": {
+    "name": "hedwigai inc",
+    "url": "https://hedwigai.com"
+  },
+  "plugins": [
+    {
+      "name": "hedwigai",
+      "source": "./plugins/hedwigai",
+      "description": "Cited workbooks from primary records — biotech diligence memos, SEC filings, FDA records, Form D raises, US importers — via the hedwigai MCP."
+    }
+  ]
+}

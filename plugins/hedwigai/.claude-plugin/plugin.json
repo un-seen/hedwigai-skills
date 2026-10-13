@@ -1,0 +1,25 @@
+{
+  "name": "hedwigai",
+  "displayName": "hedwigai",
+  "version": "0.1.0",
+  "description": "Cited workbooks from primary records — biotech diligence memos, SEC filings, FDA records, Form D raises and US import records — through the hedwigai MCP.",
+  "author": {
+    "name": "hedwigai inc",
+    "email": "shashank@hedwigai.com",
+    "url": "https://hedwigai.com"
+  },
+  "homepage": "https://hedwigai.com",
+  "repository": "https://github.com/un-seen/hedwigai-skills",
+  "license": "MIT",
+  "keywords": [
+    "biotech",
+    "due-diligence",
+    "clinical-trials",
+    "sec-filings",
+    "fda",
+    "form-d",
+    "trade-data",
+    "primary-sources",
+    "mcp"
+  ]
+}
