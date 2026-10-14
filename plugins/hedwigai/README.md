@@ -1,7 +1,9 @@
 # hedwigai plugin
 
-Five skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
+Seven skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
 
+- **hedwigai** — when to use hedwigai, and which tool or program answers which question
+- **company-signals** — what a company is doing now: web traffic, rankings, hiring, raises, new subdomains, trademarks
 - **biotech-diligence** — diligence memos on biotech companies: pipeline, lead program data, competitors, standard of care, PTRS and landscape by indication
 - **sec-filings** — 10-K, 10-Q, 8-K and S-1 lookups
 - **fda-lookup** — approvals, labels, recalls and adverse event reports

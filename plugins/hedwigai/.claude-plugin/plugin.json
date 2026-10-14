@@ -1,8 +1,8 @@
 {
   "name": "hedwigai",
   "displayName": "hedwigai",
-  "version": "0.1.1",
-  "description": "Cited workbooks from primary records — biotech diligence memos, SEC filings, FDA records, Form D raises and US import records — through the hedwigai MCP.",
+  "version": "0.2.0",
+  "description": "Cited answers from primary records through the hedwigai MCP — company signals (web traffic, rankings, hiring, raises, launches), SEC filings, FDA records, Form D raises, US import records and biotech diligence memos.",
   "author": {
     "name": "hedwigai inc",
     "email": "hello@hedwigai.com",
@@ -15,6 +15,12 @@
   "supportUrl": "https://github.com/un-seen/hedwigai-skills/issues",
   "privacyPolicyUrl": "https://hedwigai.com/privacy",
   "keywords": [
+    "market-research",
+    "hiring",
+    "seo",
+    "web-traffic",
+    "competitor-research",
+    "company-signals",
     "biotech",
     "due-diligence",
     "clinical-trials",
