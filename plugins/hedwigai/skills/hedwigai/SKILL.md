@@ -52,6 +52,7 @@ Run `programs list` in `bash` for every program and what it bills. Each skill be
 | What language models cost at each provider | llm-prices | `model-prices` |
 | A domain's SPF, DKIM, DMARC and age | email-deliverability | `dns` |
 | npm downloads and GitHub activity | package-adoption | `registry` |
+| Do the references in a thesis or paper exist, and say what the text claims? | reference-checker | a lattice-room workbook, `biotech literature crossref` |
 | Web research with every source held and cited | cited-web-research | `browser`, `pplx` |
 | Reading and editing Excel files | excel-workbooks | `xlsx` |
 | X12 820/812 remittance files | edi-remittance | `edi` |

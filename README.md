@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/un-seen/hedwigai-skills)](https://skills.sh/un-seen/hedwigai-skills)
 
-Skills for AI agents that turn questions about companies, markets and people into answers grounded in primary records — web traffic and Google rankings, leads and checked emails, hiring, raises, launches, social posts, SEC filings, FDA records, US customs shipments, rents, model prices — with a source cited for every claim.
+Skills for AI agents that turn questions about companies, markets and people into answers grounded in primary records — web traffic and Google rankings, leads and checked emails, hiring, raises, launches, social posts, SEC filings, FDA records, US customs shipments, rents, model prices — with a source cited for every claim. They also check the references in a thesis or paper.
 
 They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger jobs become **workbooks**: living documents that a research run writes, cites and keeps current, and that tell you when a cited source changes.
 
@@ -30,6 +30,7 @@ They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger job
 | [llm-prices](plugins/hedwigai/skills/llm-prices/SKILL.md) | What every provider charges for current language models, cheapest first |
 | [email-deliverability](plugins/hedwigai/skills/email-deliverability/SKILL.md) | A domain's SPF, DKIM, DMARC policy, MX and registration age |
 | [package-adoption](plugins/hedwigai/skills/package-adoption/SKILL.md) | npm downloads and GitHub stars, issues and last push |
+| [reference-checker](plugins/hedwigai/skills/reference-checker/SKILL.md) | Every reference in a thesis or paper looked up in Crossref and on the web, and each citing sentence read against the work it cites |
 | [cited-web-research](plugins/hedwigai/skills/cited-web-research/SKILL.md) | Web search and reading with every cited page and PDF held under its own link |
 | [excel-workbooks](plugins/hedwigai/skills/excel-workbooks/SKILL.md) | Read and edit Excel files with formulas recalculated and references kept |
 | [edi-remittance](plugins/hedwigai/skills/edi-remittance/SKILL.md) | X12 820 remittance and 812 adjustment files as CSV with reason codes |

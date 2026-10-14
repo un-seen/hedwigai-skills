@@ -1,6 +1,6 @@
 # hedwigai plugin
 
-23 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
+24 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
 
 - **hedwigai** — When to reach for hedwigai, and which skill answers which question
 - **company-signals** — What a company is doing now — traffic, rankings, hiring, raises, launches, liens — for competitor teardowns and account research
@@ -22,6 +22,7 @@
 - **llm-prices** — What every provider charges for current language models, cheapest first
 - **email-deliverability** — A domain's SPF, DKIM, DMARC policy, MX and registration age
 - **package-adoption** — npm downloads and GitHub stars, issues and last push
+- **reference-checker** — Every reference in a thesis or paper looked up in Crossref and on the web, and each citing sentence read against the work it cites
 - **cited-web-research** — Web search and reading with every cited page and PDF held under its own link
 - **excel-workbooks** — Read and edit Excel files with formulas recalculated and references kept
 - **edi-remittance** — X12 820 remittance and 812 adjustment files as CSV with reason codes

@@ -1,8 +1,8 @@
 {
   "name": "hedwigai",
   "displayName": "hedwigai",
-  "version": "0.3.0",
-  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more.",
+  "version": "0.4.0",
+  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices, reference checks for theses and papers, and more.",
   "author": {
     "name": "hedwigai inc",
     "email": "hello@hedwigai.com",
@@ -35,6 +35,9 @@
     "social-listening",
     "job-postings",
     "llm-pricing",
-    "rent-comps"
+    "rent-comps",
+    "reference-checker",
+    "citation-checker",
+    "academic-writing"
   ]
 }
