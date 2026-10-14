@@ -1,6 +1,6 @@
 ---
 name: hedwigai
-description: Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, search rankings, hiring, funding raises, SEC filings, trademarks, imports, FDA records — or wants a research report, prospect list or tracker that stays current. Also use when a task needs data you don't have and the hedwigai MCP is connected.
+description: Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, Google rankings, hiring, funding, launches, SEC filings, imports, FDA records, leads and emails, rents, model prices — or wants a research report, prospect list or tracker that stays current. Also use when a task needs data you don't have and the hedwigai MCP is connected.
 ---
 
 # hedwigai
@@ -27,13 +27,36 @@ The user signs in the first time a tool is called.
 | Something already researched | `search_workbooks` or `find_workbook`, then `read_workbook` |
 | To know whether a report is still right | `recheck_sources` on the workbook |
 
-## Which program answers what
+## Which skill answers what
 
-Run `programs list` in `bash` for the current list and what each one bills. The ones asked for most:
+Run `programs list` in `bash` for every program and what it bills. Each skill below covers one kind of question:
 
-- **Company signals** — `traffic` (monthly Google organic visits), `rank` (where a domain ranks for a keyword, and who is above it), `company-hiring` and `h1b-hiring` (sponsored hiring, new seats vs renewals), `funding` (SEC Form D raises), `webcertificates` (new subdomains: a service going live), `us-trademarks` (what a company is about to sell). See the **company-signals** skill.
-- **Filings and records** — `sec-filings`, `fda`, `biotech`, `trade` (US importers and their suppliers), `ucc`, `fcc`, `us-business-license`. See the **sec-filings**, **fda-lookup**, **biotech-diligence**, **form-d-raises** and **us-importers** skills.
-- **People and the web** — `outreach` (who holds a role, with checked work emails), `social`, `browser`, `pplx`, `dns`.
+| Question | Skill | Programs |
+| --- | --- | --- |
+| What is a company doing right now? | company-signals | several, below |
+| How much search traffic does a site get? | web-traffic | `traffic` |
+| Where does a site rank on Google, and who is above it? | seo-rankings | `rank`, `series` |
+| Companies, people and checked emails to contact | lead-lists | `outreach`, `mail` (drafts only) |
+| Who is hiring, for what, at what wage? | hiring-signals | `company-hiring`, `h1b-hiring` |
+| What is a company about to launch? | launch-signals | `webcertificates`, `us-trademarks`, `fcc`, `fda` |
+| Who just raised? | form-d-raises | `funding` |
+| What does a person, brand or topic say in public? | social-listening | `social` |
+| SEC filings, financials, holders | sec-filings | `sec-filings`, `biotech company` |
+| Drug labels, approvals, patents; device registrations | fda-lookup | `biotech drug`, `fda` |
+| A biotech diligence memo | biotech-diligence | workbooks, `biotech` |
+| US importers and their suppliers | us-importers | `trade` |
+| New bars and restaurants licensed to open | new-venue-openings | `us-business-license` |
+| Trucking companies and growing fleets | trucking-fleets | `us-motor-carriers` |
+| Rent comps, AMI limits, tract data | rental-market | `realestate-us`, `realestate-in` |
+| How busy an airport is, by terminal and hour | airport-traffic | `aero` |
+| What language models cost at each provider | llm-prices | `model-prices` |
+| A domain's SPF, DKIM, DMARC and age | email-deliverability | `dns` |
+| npm downloads and GitHub activity | package-adoption | `registry` |
+| Web research with every source held and cited | cited-web-research | `browser`, `pplx` |
+| Reading and editing Excel files | excel-workbooks | `xlsx` |
+| X12 820/812 remittance files | edi-remittance | `edi` |
+
+Also in the shell: `ucc` (liens, Colorado and Connecticut), `places`, `vision`, `ocr`, `pdftext`, `doctext`, `csv`, `dbq` (read-only SQL on a connected database) and the account's connected drives under `/catalog`.
 
 Some programs are switched off until enabled (`programs enable <slug>`). Ask the user before enabling one, and before any metered call in a large batch.
 

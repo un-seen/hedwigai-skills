@@ -1,8 +1,8 @@
 {
   "name": "hedwigai",
   "displayName": "hedwigai",
-  "version": "0.2.0",
-  "description": "Cited answers from primary records through the hedwigai MCP — company signals (web traffic, rankings, hiring, raises, launches), SEC filings, FDA records, Form D raises, US import records and biotech diligence memos.",
+  "version": "0.3.0",
+  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more.",
   "author": {
     "name": "hedwigai inc",
     "email": "hello@hedwigai.com",
@@ -29,6 +29,12 @@
     "form-d",
     "trade-data",
     "primary-sources",
-    "mcp"
+    "mcp",
+    "lead-generation",
+    "sales-prospecting",
+    "social-listening",
+    "job-postings",
+    "llm-pricing",
+    "rent-comps"
   ]
 }

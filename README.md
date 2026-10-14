@@ -2,21 +2,37 @@
 
 [![skills.sh](https://skills.sh/b/un-seen/hedwigai-skills)](https://skills.sh/un-seen/hedwigai-skills)
 
-Skills for AI agents that turn questions about companies into answers grounded in primary records — web traffic and rankings, hiring, Form D raises, new subdomains, trademarks, SEC filings, FDA records, ClinicalTrials.gov, PubMed, US customs shipments — with a source cited for every claim.
+Skills for AI agents that turn questions about companies, markets and people into answers grounded in primary records — web traffic and Google rankings, leads and checked emails, hiring, raises, launches, social posts, SEC filings, FDA records, US customs shipments, rents, model prices — with a source cited for every claim.
 
 They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger jobs become **workbooks**: living documents that a research run writes, cites and keeps current, and that tell you when a cited source changes.
 
 ## Skills
 
-| Skill | Use it for | Runs on |
-| --- | --- | --- |
-| [hedwigai](plugins/hedwigai/skills/hedwigai/SKILL.md) | When to reach for hedwigai at all, and which tool or program answers which question | all tools |
-| [company-signals](plugins/hedwigai/skills/company-signals/SKILL.md) | What a company is doing now: web traffic, Google rankings, sponsored hiring, raises, new subdomains, trademarks — competitor teardowns and account research | `traffic`, `rank`, `h1b-hiring`, `funding`, `webcertificates`, `us-trademarks` programs |
-| [biotech-diligence](plugins/hedwigai/skills/biotech-diligence/SKILL.md) | Diligence memos on biotech companies: pipeline, lead program data, competitors, standard of care, PTRS and landscape by indication | `create_workbook`, `ask` |
-| [sec-filings](plugins/hedwigai/skills/sec-filings/SKILL.md) | 10-K, 10-Q, 8-K and S-1 lookups, with figures and passages cited to the filing | `sec-filings` program |
-| [fda-lookup](plugins/hedwigai/skills/fda-lookup/SKILL.md) | Approvals, labels, recalls and adverse event reports for drugs and devices | `fda` program |
-| [form-d-raises](plugins/hedwigai/skills/form-d-raises/SKILL.md) | Private funding rounds from SEC Form D, including this month's filings | `funding` program |
-| [us-importers](plugins/hedwigai/skills/us-importers/SKILL.md) | US importers and their overseas suppliers from customs bills of lading | `trade` program |
+| Skill | Use it for |
+| --- | --- |
+| [hedwigai](plugins/hedwigai/skills/hedwigai/SKILL.md) | When to reach for hedwigai, and which skill answers which question |
+| [company-signals](plugins/hedwigai/skills/company-signals/SKILL.md) | What a company is doing now — traffic, rankings, hiring, raises, launches, liens — for competitor teardowns and account research |
+| [web-traffic](plugins/hedwigai/skills/web-traffic/SKILL.md) | Estimated monthly Google organic visits for up to 1,000 domains at once |
+| [seo-rankings](plugins/hedwigai/skills/seo-rankings/SKILL.md) | Where a site ranks on Google for each keyword, who is above it, and the history |
+| [lead-lists](plugins/hedwigai/skills/lead-lists/SKILL.md) | Companies matching a description, who holds a role, checked work emails, and drafts that are never sent |
+| [hiring-signals](plugins/hedwigai/skills/hiring-signals/SKILL.md) | Live job posts for a role this month, and sponsored-hiring filings with wages and new seats |
+| [launch-signals](plugins/hedwigai/skills/launch-signals/SKILL.md) | New subdomains, trademark applications, FCC and FDA device registrations — launches before they're announced |
+| [form-d-raises](plugins/hedwigai/skills/form-d-raises/SKILL.md) | Private funding rounds from SEC Form D, including this month's filings |
+| [social-listening](plugins/hedwigai/skills/social-listening/SKILL.md) | Posts, profiles, comments and search on X, LinkedIn, Instagram and YouTube |
+| [sec-filings](plugins/hedwigai/skills/sec-filings/SKILL.md) | 10-K, 10-Q and 8-K text, filing lists, financials, public float and 13F holders |
+| [fda-lookup](plugins/hedwigai/skills/fda-lookup/SKILL.md) | Drug labels, approvals and patents; medical device establishment registrations |
+| [biotech-diligence](plugins/hedwigai/skills/biotech-diligence/SKILL.md) | Diligence memos on biotech companies: pipeline, lead program data, competitors, PTRS and landscape |
+| [us-importers](plugins/hedwigai/skills/us-importers/SKILL.md) | US importers, their overseas suppliers and shipments from customs bills of lading |
+| [new-venue-openings](plugins/hedwigai/skills/new-venue-openings/SKILL.md) | Bars, restaurants and food shops newly licensed to open in Chicago, New York, Colorado and Missouri |
+| [trucking-fleets](plugins/hedwigai/skills/trucking-fleets/SKILL.md) | US motor carriers, new fleets since a date, and fleets that changed size |
+| [rental-market](plugins/hedwigai/skills/rental-market/SKILL.md) | Rent comps in a US ZIP or Indian city, rent history, HUD AMI limits and census tract data |
+| [airport-traffic](plugins/hedwigai/skills/airport-traffic/SKILL.md) | Every flight movement at an airport on a day, by terminal and hour |
+| [llm-prices](plugins/hedwigai/skills/llm-prices/SKILL.md) | What every provider charges for current language models, cheapest first |
+| [email-deliverability](plugins/hedwigai/skills/email-deliverability/SKILL.md) | A domain's SPF, DKIM, DMARC policy, MX and registration age |
+| [package-adoption](plugins/hedwigai/skills/package-adoption/SKILL.md) | npm downloads and GitHub stars, issues and last push |
+| [cited-web-research](plugins/hedwigai/skills/cited-web-research/SKILL.md) | Web search and reading with every cited page and PDF held under its own link |
+| [excel-workbooks](plugins/hedwigai/skills/excel-workbooks/SKILL.md) | Read and edit Excel files with formulas recalculated and references kept |
+| [edi-remittance](plugins/hedwigai/skills/edi-remittance/SKILL.md) | X12 820 remittance and 812 adjustment files as CSV with reason codes |
 
 ## Install
 

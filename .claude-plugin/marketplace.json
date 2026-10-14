@@ -1,6 +1,6 @@
 {
   "name": "hedwigai",
-  "description": "Skills and the hedwigai MCP for primary-source research: company signals (traffic, rankings, hiring, raises, launches), SEC filings, FDA records, Form D raises, US import records and biotech diligence.",
+  "description": "Skills and the hedwigai MCP for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more.",
   "owner": {
     "name": "hedwigai inc",
     "url": "https://hedwigai.com"
@@ -9,7 +9,7 @@
     {
       "name": "hedwigai",
       "source": "./plugins/hedwigai",
-      "description": "Cited answers from primary records — company signals, SEC filings, FDA records, Form D raises, US importers, biotech diligence memos — via the hedwigai MCP."
+      "description": "Skills and the hedwigai MCP for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more."
     }
   ]
 }
