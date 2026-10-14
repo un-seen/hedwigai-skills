@@ -1,6 +1,6 @@
 ---
 name: hedwigai
-description: Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, Google rankings, hiring, funding, launches, SEC filings, imports, FDA records, leads and emails, rents, model prices — or wants a research report, prospect list or tracker that stays current. Also use when a task needs data you don't have and the hedwigai MCP is connected.
+description: "Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, Google rankings, hiring, funding, launches, SEC filings, imports, FDA records, leads and emails, rents, model prices — or wants a research report, prospect list or tracker that stays current. Also use when a task needs data you don't have and the hedwigai MCP is connected."
 ---
 
 # hedwigai

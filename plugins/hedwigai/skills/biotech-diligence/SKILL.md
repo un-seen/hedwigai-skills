@@ -1,6 +1,6 @@
 ---
 name: biotech-diligence
-description: Biotech and biopharma due diligence with a cited source for every claim. Use when the user asks for a diligence memo, investment memo or deep dive on a biotech company, its pipeline, lead program, clinical trials, competitors or standard of care, or for a PTRS / probability-of-success or landscape analysis by program and indication.
+description: "Biotech and biopharma due diligence with a cited source for every claim. Use when the user asks for a diligence memo, investment memo or deep dive on a biotech company, its pipeline, lead program, clinical trials, competitors or standard of care, or for a PTRS / probability-of-success or landscape analysis by program and indication."
 ---
 
 # Biotech diligence

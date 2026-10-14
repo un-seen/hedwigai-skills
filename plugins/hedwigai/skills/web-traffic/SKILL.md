@@ -1,6 +1,6 @@
 ---
 name: web-traffic
-description: Estimate and compare websites' monthly visits from Google organic search, for one domain or up to 1,000 at once, with the month and source stated. Use when the user asks how much traffic a site gets, which competitor is biggest, how a market's sites compare, or wants traffic figures for a list of companies.
+description: "Estimate and compare websites' monthly visits from Google organic search, for one domain or up to 1,000 at once, with the month and source stated. Use when the user asks how much traffic a site gets, which competitor is biggest, how a market's sites compare, or wants traffic figures for a list of companies."
 ---
 
 # Web traffic

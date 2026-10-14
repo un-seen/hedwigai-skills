@@ -1,6 +1,6 @@
 ---
 name: hiring-signals
-description: Find who is hiring and for what — live job posts for a role this month from Greenhouse, Lever and Ashby boards, and US sponsored-hiring filings with one employer's job titles, wages offered and worksites, or every employer adding new positions in a place or discipline. Use when the user asks whether a company is hiring, what it pays, where it is growing, or wants companies hiring engineers, nurses or analysts in a city as prospects.
+description: "Find who is hiring and for what — live job posts for a role this month from Greenhouse, Lever and Ashby boards, and US sponsored-hiring filings with one employer's job titles, wages offered and worksites, or every employer adding new positions in a place or discipline. Use when the user asks whether a company is hiring, what it pays, where it is growing, or wants companies hiring engineers, nurses or analysts in a city as prospects."
 ---
 
 # Hiring signals

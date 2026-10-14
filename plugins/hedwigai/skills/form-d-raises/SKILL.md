@@ -1,6 +1,6 @@
 ---
 name: form-d-raises
-description: Find private funding rounds disclosed in SEC Form D filings — which companies raised, how much, when, under which exemption and with which officers named — including this month's new filings. Use when the user asks who just raised money, wants recent raises in a sector or state, or wants to check a private company's reported fundraising.
+description: "Find private funding rounds disclosed in SEC Form D filings — which companies raised, how much, when, under which exemption and with which officers named — including this month's new filings. Use when the user asks who just raised money, wants recent raises in a sector or state, or wants to check a private company's reported fundraising."
 ---
 
 # Form D raises

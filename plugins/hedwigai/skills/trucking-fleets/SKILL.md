@@ -1,6 +1,6 @@
 ---
 name: trucking-fleets
-description: Look up US motor carriers from the federal census — a carrier's fleet size, drivers, address and registration date; every trucking company that registered since a date; and carriers whose fleet just changed size. Use when the user sells to trucking companies, wants new fleets in a state, is vetting a carrier, or wants fleets that are growing.
+description: "Look up US motor carriers from the federal census — a carrier's fleet size, drivers, address and registration date; every trucking company that registered since a date; and carriers whose fleet just changed size. Use when the user sells to trucking companies, wants new fleets in a state, is vetting a carrier, or wants fleets that are growing."
 ---
 
 # Trucking fleets

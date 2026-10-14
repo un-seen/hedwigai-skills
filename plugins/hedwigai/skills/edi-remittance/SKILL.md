@@ -1,6 +1,6 @@
 ---
 name: edi-remittance
-description: Turn X12 EDI payment files into readable CSV — the 820 remittance advice and the 812 credit/debit adjustment — with the reason code on every line. Use when the user has an EDI file from a retailer or payer and wants to see what was paid, what was deducted and why.
+description: "Turn X12 EDI payment files into readable CSV — the 820 remittance advice and the 812 credit/debit adjustment — with the reason code on every line. Use when the user has an EDI file from a retailer or payer and wants to see what was paid, what was deducted and why."
 ---
 
 # EDI remittance

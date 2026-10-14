@@ -1,6 +1,6 @@
 ---
 name: email-deliverability
-description: Check a domain's email authentication and registration — SPF, DKIM, DMARC policy, MX and nameservers, and how old the domain is. Use when emails are landing in spam, before a cold outreach campaign, when vetting a supplier or a lead's domain, or to check whether a domain is new.
+description: "Check a domain's email authentication and registration — SPF, DKIM, DMARC policy, MX and nameservers, and how old the domain is. Use when emails are landing in spam, before a cold outreach campaign, when vetting a supplier or a lead's domain, or to check whether a domain is new."
 ---
 
 # Email deliverability

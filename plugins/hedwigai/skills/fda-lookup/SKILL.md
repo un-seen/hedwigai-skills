@@ -1,6 +1,6 @@
 ---
 name: fda-lookup
-description: Look up US FDA records with the record cited — a drug's approved label (indications, boxed warning, route), every FDA application for a molecule and when it was first approved, Orange Book patent expiries, and medical device establishment registrations. Use when the user asks whether a drug is FDA approved, what its label says, when its patents expire, who holds the application, or which companies have registered to make a medical device.
+description: "Look up US FDA records with the record cited — a drug's approved label (indications, boxed warning, route), every FDA application for a molecule and when it was first approved, Orange Book patent expiries, and medical device establishment registrations. Use when the user asks whether a drug is FDA approved, what its label says, when its patents expire, who holds the application, or which companies have registered to make a medical device."
 ---
 
 # FDA lookup

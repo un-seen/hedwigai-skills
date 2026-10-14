@@ -1,6 +1,6 @@
 ---
 name: lead-lists
-description: Build a list of companies and people to contact: companies matching a description of a market, who holds a role at each, their work email addresses checked against the mail server, and email drafts that are never sent. Use when the user wants leads, prospects, a target account list, a decision-maker's email, to find candidates or experts by title, or to check whether an address is real.
+description: "Build a list of companies and people to contact: companies matching a description of a market, who holds a role at each, their work email addresses checked against the mail server, and email drafts that are never sent. Use when the user wants leads, prospects, a target account list, a decision-maker's email, to find candidates or experts by title, or to check whether an address is real."
 ---
 
 # Lead lists

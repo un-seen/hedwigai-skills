@@ -1,6 +1,6 @@
 ---
 name: new-venue-openings
-description: Find businesses newly licensed to open — bars, restaurants and food shops with a new liquor licence or retail food permit — in Chicago, New York, Colorado and Missouri. Use when the user sells to restaurants or bars, wants new openings in a city, or is looking for venues that have signed a lease but don't have suppliers yet.
+description: "Find businesses newly licensed to open — bars, restaurants and food shops with a new liquor licence or retail food permit — in Chicago, New York, Colorado and Missouri. Use when the user sells to restaurants or bars, wants new openings in a city, or is looking for venues that have signed a lease but don't have suppliers yet."
 ---
 
 # New venue openings

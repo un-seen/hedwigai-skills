@@ -1,6 +1,6 @@
 ---
 name: sec-filings
-description: Read SEC EDGAR filings for a US public company — the text of a 10-K, 10-Q or 8-K, the list of its filings, cash, revenue and runway figures, public float, and who owns it from 13F filings — with the filing cited. Use when the user asks what a company disclosed to the SEC, wants a recent annual or quarterly report, needs a figure or passage from one, or asks which funds hold a stock.
+description: "Read SEC EDGAR filings for a US public company — the text of a 10-K, 10-Q or 8-K, the list of its filings, cash, revenue and runway figures, public float, and who owns it from 13F filings — with the filing cited. Use when the user asks what a company disclosed to the SEC, wants a recent annual or quarterly report, needs a figure or passage from one, or asks which funds hold a stock."
 ---
 
 # SEC filings

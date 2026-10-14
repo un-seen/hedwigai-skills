@@ -1,6 +1,6 @@
 ---
 name: seo-rankings
-description: Check where a website ranks on Google for each of a list of keywords, and which sites rank above it, with the history of past checks. Use for SEO audits, keyword gap analysis, checking whether a page ranks, finding who outranks a site, or asking whether AI agents that search Google will find it.
+description: "Check where a website ranks on Google for each of a list of keywords, and which sites rank above it, with the history of past checks. Use for SEO audits, keyword gap analysis, checking whether a page ranks, finding who outranks a site, or asking whether AI agents that search Google will find it."
 ---
 
 # SEO rankings

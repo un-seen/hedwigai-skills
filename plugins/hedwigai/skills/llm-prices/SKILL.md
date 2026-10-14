@@ -1,6 +1,6 @@
 ---
 name: llm-prices
-description: Compare what every provider charges for current language models, per million input and output tokens, with cache prices, speed tiers, quantization, context length and uptime. Use when the user asks which model or provider is cheapest, what a model costs, what the newest version of a model family is, or wants to estimate an LLM bill.
+description: "Compare what every provider charges for current language models, per million input and output tokens, with cache prices, speed tiers, quantization, context length and uptime. Use when the user asks which model or provider is cheapest, what a model costs, what the newest version of a model family is, or wants to estimate an LLM bill."
 ---
 
 # LLM prices

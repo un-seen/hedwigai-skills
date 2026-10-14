@@ -1,6 +1,6 @@
 ---
 name: cited-web-research
-description: Research a question on the web and keep the original of every page and PDF you cite — ranked search results, the passages of pages that bear on a question, archived originals with a citable link, and a live browser for pages that need clicks. Use when the user needs sources, not just an answer, or a report whose every claim links to a held copy of its source.
+description: "Research a question on the web and keep the original of every page and PDF you cite — ranked search results, the passages of pages that bear on a question, archived originals with a citable link, and a live browser for pages that need clicks. Use when the user needs sources, not just an answer, or a report whose every claim links to a held copy of its source."
 ---
 
 # Cited web research

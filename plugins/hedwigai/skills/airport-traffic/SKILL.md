@@ -1,6 +1,6 @@
 ---
 name: airport-traffic
-description: Get every flight movement at an airport on a given day, about a year back or ninety days ahead, with per-terminal and per-hour rollups. Use when the user asks how busy an airport or terminal is, wants the arrivals or departures demand curve by hour, or plans staffing, retail or transport around flight volumes.
+description: "Get every flight movement at an airport on a given day, about a year back or ninety days ahead, with per-terminal and per-hour rollups. Use when the user asks how busy an airport or terminal is, wants the arrivals or departures demand curve by hour, or plans staffing, retail or transport around flight volumes."
 ---
 
 # Airport traffic

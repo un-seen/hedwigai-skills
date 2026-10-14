@@ -1,6 +1,6 @@
 ---
 name: package-adoption
-description: Measure how much an open-source package or repository is actually used — npm weekly and monthly downloads, latest version and last publish date, and GitHub stars, forks, open issues and last push. Use when comparing libraries, judging whether a project is maintained, or tracking a developer tool's adoption.
+description: "Measure how much an open-source package or repository is actually used — npm weekly and monthly downloads, latest version and last publish date, and GitHub stars, forks, open issues and last push. Use when comparing libraries, judging whether a project is maintained, or tracking a developer tool's adoption."
 ---
 
 # Package adoption

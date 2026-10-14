@@ -1,6 +1,6 @@
 ---
 name: social-listening
-description: Read what a person, company or topic says in public on X, LinkedIn, Instagram and YouTube — profiles, posts, replies, comments, reactions, followers and keyword search. Use when the user wants a company's or founder's recent posts, what people say about a brand or topic, a LinkedIn company page from a domain, a YouTube channel's videos and statistics, or who engages with an account.
+description: "Read what a person, company or topic says in public on X, LinkedIn, Instagram and YouTube — profiles, posts, replies, comments, reactions, followers and keyword search. Use when the user wants a company's or founder's recent posts, what people say about a brand or topic, a LinkedIn company page from a domain, a YouTube channel's videos and statistics, or who engages with an account."
 ---
 
 # Social listening

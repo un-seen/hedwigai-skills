@@ -1,6 +1,6 @@
 ---
 name: excel-workbooks
-description: Read and edit Excel workbooks the way Excel does — values and formulas, inserting and deleting rows and columns with every reference following, formats, named ranges and pivots, with formulas recalculated on save — on files in the user's connected Dropbox or Google Drive. Use when the user wants to read, fix, trace or update a spreadsheet, find errors like #REF!, or see which cells a formula depends on.
+description: "Read and edit Excel workbooks the way Excel does — values and formulas, inserting and deleting rows and columns with every reference following, formats, named ranges and pivots, with formulas recalculated on save — on files in the user's connected Dropbox or Google Drive. Use when the user wants to read, fix, trace or update a spreadsheet, find errors like #REF!, or see which cells a formula depends on."
 ---
 
 # Excel workbooks

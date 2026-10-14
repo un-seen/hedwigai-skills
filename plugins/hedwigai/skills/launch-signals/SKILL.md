@@ -1,6 +1,6 @@
 ---
 name: launch-signals
-description: Spot what a company is about to launch before it announces it — new subdomains going live (api., checkout., status.), trademark applications for products not yet on sale, FCC radio equipment registrations, and FDA medical device establishment registrations. Use for competitor watch, product intelligence, or finding companies mid-build to sell to.
+description: "Spot what a company is about to launch before it announces it — new subdomains going live (api., checkout., status.), trademark applications for products not yet on sale, FCC radio equipment registrations, and FDA medical device establishment registrations. Use for competitor watch, product intelligence, or finding companies mid-build to sell to."
 ---
 
 # Launch signals

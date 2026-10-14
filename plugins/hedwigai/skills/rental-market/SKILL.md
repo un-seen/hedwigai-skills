@@ -1,6 +1,6 @@
 ---
 name: rental-market
-description: Research rents: rental listings and comparables in a US ZIP code or around a place in an Indian city, asking-rent history by week, HUD maximum rents and income limits by AMI percent, and census tract data with opportunity categories. Use for rent comps, pricing a unit, affordable-housing limits, or how rents in a neighbourhood are moving.
+description: "Research rents: rental listings and comparables in a US ZIP code or around a place in an Indian city, asking-rent history by week, HUD maximum rents and income limits by AMI percent, and census tract data with opportunity categories. Use for rent comps, pricing a unit, affordable-housing limits, or how rents in a neighbourhood are moving."
 ---
 
 # Rental market

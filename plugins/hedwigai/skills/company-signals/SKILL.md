@@ -1,6 +1,6 @@
 ---
 name: company-signals
-description: Find out what a company is doing right now from public signals, each cited and dated — its web traffic, Google rankings and who outranks it, sponsored hiring and new seats, recent Form D raises, new subdomains going live, and trademarks it has filed for products not yet launched. Use for competitor research and teardowns, comparing websites' traffic, SEO gaps, account research before a sales call, spotting companies that just raised or are hiring, or watching a market for launches.
+description: "Find out what a company is doing right now from public signals, each cited and dated — its web traffic, Google rankings and who outranks it, sponsored hiring and new seats, recent Form D raises, new subdomains going live, and trademarks it has filed for products not yet launched. Use for competitor research and teardowns, comparing websites' traffic, SEO gaps, account research before a sales call, spotting companies that just raised or are hiring, or watching a market for launches."
 ---
 
 # Company signals

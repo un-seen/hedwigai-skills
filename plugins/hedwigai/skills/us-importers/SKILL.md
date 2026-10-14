@@ -1,6 +1,6 @@
 ---
 name: us-importers
-description: Find US importers and their overseas suppliers from customs bill-of-lading records — who ships to an importer, who an exporter sells to in the US, and each company's shipments by date and HS code. Use when the user wants US buyers for a product, a company's suppliers or customers, shipment history, or a list of importers to sell to.
+description: "Find US importers and their overseas suppliers from customs bill-of-lading records — who ships to an importer, who an exporter sells to in the US, and each company's shipments by date and HS code. Use when the user wants US buyers for a product, a company's suppliers or customers, shipment history, or a list of importers to sell to."
 ---
 
 # US importers
