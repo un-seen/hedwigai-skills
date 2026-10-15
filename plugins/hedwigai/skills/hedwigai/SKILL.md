@@ -1,6 +1,6 @@
 ---
 name: hedwigai
-description: "Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, Google rankings, hiring, funding, launches, SEC filings, imports, FDA records, leads and emails, rents, model prices — or wants a research report, prospect list or tracker that stays current. Also use when a task needs data you don't have and the hedwigai MCP is connected."
+description: "Answer questions about companies, markets and people from current public records, with a source cited for every claim, through the hedwigai MCP — and keep the answer up to date as a workbook. Use when the user needs facts that change and must be checked rather than recalled — a company's web traffic, Google rankings, hiring, funding, launches, SEC filings, imports, FDA records, leads and emails, rents, model prices — or wants a research report, prospect list or tracker that stays current, or a LaTeX paper compiled to a PDF. Also use when a task needs data you don't have and the hedwigai MCP is connected."
 ---
 
 # hedwigai
@@ -53,6 +53,7 @@ Run `programs list` in `bash` for every program and what it bills. Each skill be
 | A domain's SPF, DKIM, DMARC and age | email-deliverability | `dns` |
 | npm downloads and GitHub activity | package-adoption | `registry` |
 | Do the references in a thesis or paper exist, and say what the text claims? | reference-checker | a lattice-room workbook, `biotech literature crossref` |
+| Compile a LaTeX, Typst or Markdown paper to a PDF and fix its errors | latex-papers | the `render_document` tool |
 | Web research with every source held and cited | cited-web-research | `browser`, `pplx` |
 | Reading and editing Excel files | excel-workbooks | `xlsx` |
 | X12 820/812 remittance files | edi-remittance | `edi` |

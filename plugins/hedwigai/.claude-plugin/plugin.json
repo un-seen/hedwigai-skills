@@ -1,8 +1,8 @@
 {
   "name": "hedwigai",
   "displayName": "hedwigai",
-  "version": "0.4.0",
-  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices, reference checks for theses and papers, and more.",
+  "version": "0.5.0",
+  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices, reference checks for theses and papers, LaTeX papers compiled to PDF, and more.",
   "author": {
     "name": "hedwigai inc",
     "email": "hello@hedwigai.com",
@@ -38,6 +38,10 @@
     "rent-comps",
     "reference-checker",
     "citation-checker",
-    "academic-writing"
+    "academic-writing",
+    "latex",
+    "typst",
+    "pdf",
+    "overleaf-alternative"
   ]
 }

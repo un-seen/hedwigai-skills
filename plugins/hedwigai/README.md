@@ -1,6 +1,6 @@
 # hedwigai plugin
 
-24 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
+25 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
 
 - **hedwigai** — When to reach for hedwigai, and which skill answers which question
 - **company-signals** — What a company is doing now — traffic, rankings, hiring, raises, launches, liens — for competitor teardowns and account research
@@ -22,6 +22,7 @@
 - **llm-prices** — What every provider charges for current language models, cheapest first
 - **email-deliverability** — A domain's SPF, DKIM, DMARC policy, MX and registration age
 - **package-adoption** — npm downloads and GitHub stars, issues and last push
+- **latex-papers** — Compile LaTeX, Typst or Markdown to a PDF from the agent, with journal classes and BibTeX, and fix compile errors without pasting them back
 - **reference-checker** — Every reference in a thesis or paper looked up in Crossref and on the web, and each citing sentence read against the work it cites
 - **cited-web-research** — Web search and reading with every cited page and PDF held under its own link
 - **excel-workbooks** — Read and edit Excel files with formulas recalculated and references kept
@@ -34,6 +35,6 @@ Install in Claude Code:
 /plugin install hedwigai@hedwigai
 ```
 
-You'll be asked to sign in to hedwigai the first time a skill calls the MCP. Reading and editing workbooks is free; research runs and metered data programs use your account's credits.
+You'll be asked to sign in to hedwigai the first time a skill calls the MCP. Reading and editing workbooks and compiling documents to PDF are free; research runs and metered data programs use your account's credits.
 
 Full documentation: https://github.com/un-seen/hedwigai-skills

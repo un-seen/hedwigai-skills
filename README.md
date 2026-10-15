@@ -30,6 +30,7 @@ They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger job
 | [llm-prices](plugins/hedwigai/skills/llm-prices/SKILL.md) | What every provider charges for current language models, cheapest first |
 | [email-deliverability](plugins/hedwigai/skills/email-deliverability/SKILL.md) | A domain's SPF, DKIM, DMARC policy, MX and registration age |
 | [package-adoption](plugins/hedwigai/skills/package-adoption/SKILL.md) | npm downloads and GitHub stars, issues and last push |
+| [latex-papers](plugins/hedwigai/skills/latex-papers/SKILL.md) | Compile LaTeX, Typst or Markdown to a PDF from the agent, with journal classes and BibTeX, and fix compile errors without pasting them back |
 | [reference-checker](plugins/hedwigai/skills/reference-checker/SKILL.md) | Every reference in a thesis or paper looked up in Crossref and on the web, and each citing sentence read against the work it cites |
 | [cited-web-research](plugins/hedwigai/skills/cited-web-research/SKILL.md) | Web search and reading with every cited page and PDF held under its own link |
 | [excel-workbooks](plugins/hedwigai/skills/excel-workbooks/SKILL.md) | Read and edit Excel files with formulas recalculated and references kept |
