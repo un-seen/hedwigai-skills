@@ -24,8 +24,8 @@ The user signs in the first time a tool is called.
 | One fact ("When did X last raise?", "Is X hiring engineers?") | `ask` — it answers from the account's workbooks and data programs, says `unsure` rather than guess, and lists its sources |
 | To look something up in a register or log themselves | `bash` — a read-only shell holding the data programs; `help` lists them, `<program> --help` shows usage |
 | A report, list or tracker | `create_workbook` with a one-sentence `instruction`; it starts a research run |
-| Something already researched | `search_workbooks` or `find_workbook`, then `read_workbook` |
-| To know whether a report is still right | `recheck_sources` on the workbook |
+| Something already researched | `find_workbooks` (`query` or `describe`), then `read_workbook` |
+| To know whether a report is still right | `run_workbook` with the instruction "recheck the sources" (a billed run) |
 
 ## Which skill answers what
 

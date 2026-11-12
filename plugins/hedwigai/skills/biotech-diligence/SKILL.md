@@ -19,7 +19,7 @@ For a single fact — "What is X's lead program?", "Is X a biotech with public f
 
 ## A full diligence memo
 
-1. Check whether a workbook already exists: `search_workbooks` with the company name. If one does, `read_workbook` it and offer to update it rather than starting over.
+1. Check whether a workbook already exists: `find_workbooks` with the company name as `query`. If one does, `read_workbook` it and offer to update it rather than starting over.
 2. Otherwise call `create_workbook` with a one-sentence `instruction`, for example:
    `Diligence memo on Alterity Therapeutics (NASDAQ:ATHE): pipeline and programs table, lead program clinical data, competitors and standard of care per indication, cash runway, key risks.`
    Put it in a folder such as `Diligence`. Attach any data-room files the user gives you with `attachments` so the run reads and cites them.
