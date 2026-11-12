@@ -65,6 +65,16 @@ then add `https://mcp.hedwigai.com/` as a remote MCP server in that agent. To in
 
 **Any other MCP client** — add `https://mcp.hedwigai.com/` as a remote MCP server. The `SKILL.md` files are plain Markdown and work as instructions for any agent.
 
+## The MCP server
+
+Everything here runs on one remote MCP server, `https://mcp.hedwigai.com` (streamable HTTP, protocol 2025-06-18), published in the official MCP Registry as `com.hedwigai/hedwigai` — its entry is [`mcp/server.json`](mcp/server.json).
+
+- **Sign-in:** OAuth 2.1 with PKCE, against `https://identity.hedwigai.com`; clients discover it from `/.well-known/oauth-protected-resource`. Listing the tools needs no sign-in; calling one does.
+- **Tools:** 20, documented in [`docs/tools.md`](docs/tools.md), generated from the live `tools/list`.
+- **Connect:** Claude (connector directory), ChatGPT, Cursor, Claude Code (`claude mcp add --transport http hedwigai https://mcp.hedwigai.com`), Codex, VS Code or any MCP client that speaks streamable HTTP — see [hedwigai.com/agents](https://www.hedwigai.com/agents).
+
+The server itself is hosted by hedwigai; its source is not public. This repository is its public face: the registry entry, the tool reference, and the skills that use it.
+
 ## What it costs
 
 Reading, searching and editing workbooks is free. Research runs and metered data programs draw on your hedwigai account's credits; your first workbook is covered by sign-up credit. See [hedwigai.com](https://hedwigai.com).

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hedwigai/hedwigai",
+  "title": "hedwigai",
+  "description": "The system of record for your agent: workbooks it reads and writes, with sources, kept current.",
+  "version": "1.3.2",
+  "websiteUrl": "https://www.hedwigai.com",
+  "repository": {
+    "url": "https://github.com/un-seen/hedwigai-skills",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.hedwigai.com/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hedwigai.com"
+    }
+  ]
+}
