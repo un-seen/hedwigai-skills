@@ -1,6 +1,12 @@
 # hedwigai skills
 
 [![skills.sh](https://skills.sh/b/un-seen/hedwigai-skills)](https://skills.sh/un-seen/hedwigai-skills)
+[![mcptry](https://mcptry.com/badge/com.hedwigai/hedwigai)](https://mcptry.com/servers/com.hedwigai/hedwigai)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.hedwigai%2Fhedwigai-black)](https://registry.modelcontextprotocol.io/v0/servers?search=com.hedwigai/hedwigai)
+[![Claude connector](https://img.shields.io/badge/Claude-connector-black)](https://claude.ai/directory/hedwigai)
+[![Glama](https://img.shields.io/badge/Glama-hedwigai-black)](https://glama.ai/mcp/connectors/com.hedwigai/hedwigai)
+[![mcp.so](https://img.shields.io/badge/mcp.so-hedwigai-black)](https://mcp.so/servers/hedwigai)
+[![License](https://img.shields.io/github/license/un-seen/hedwigai-skills?color=black)](LICENSE)
 
 Skills for AI agents that turn questions about companies, markets and people into answers grounded in primary records — web traffic and Google rankings, leads and checked emails, hiring, raises, launches, social posts, SEC filings, FDA records, US customs shipments, rents, model prices — with a source cited for every claim. They also check the references in a thesis or paper.
 
