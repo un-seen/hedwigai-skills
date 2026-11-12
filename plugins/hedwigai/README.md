@@ -1,8 +1,9 @@
 # hedwigai plugin
 
-25 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
+26 skills and the hedwigai MCP server for research grounded in primary records, with a source cited for every claim:
 
 - **hedwigai** — When to reach for hedwigai, and which skill answers which question
+- **workbook-state** — Keep a decision log, task status, handoff, tracker or results in a versioned, schema-checked workbook that outlives the session
 - **company-signals** — What a company is doing now — traffic, rankings, hiring, raises, launches, liens — for competitor teardowns and account research
 - **web-traffic** — Estimated monthly Google organic visits for up to 1,000 domains at once
 - **seo-rankings** — Where a site ranks on Google for each keyword, who is above it, and the history

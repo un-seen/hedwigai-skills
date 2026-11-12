@@ -33,6 +33,7 @@ Run `programs list` in `bash` for every program and what it bills. Each skill be
 
 | Question | Skill | Programs |
 | --- | --- | --- |
+| Keep a log, tracker, handoff or results that must outlive the session or be shared | workbook-state | workbooks |
 | What is a company doing right now? | company-signals | several, below |
 | How much search traffic does a site get? | web-traffic | `traffic` |
 | Where does a site rank on Google, and who is above it? | seo-rankings | `rank`, `series` |

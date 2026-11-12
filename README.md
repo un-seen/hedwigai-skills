@@ -17,6 +17,7 @@ They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger job
 | Skill | Use it for |
 | --- | --- |
 | [hedwigai](plugins/hedwigai/skills/hedwigai/SKILL.md) | When to reach for hedwigai, and which skill answers which question |
+| [workbook-state](plugins/hedwigai/skills/workbook-state/SKILL.md) | Keep a decision log, task status, handoff, tracker or results in a versioned, schema-checked workbook that outlives the session, instead of a loose local file |
 | [company-signals](plugins/hedwigai/skills/company-signals/SKILL.md) | What a company is doing now — traffic, rankings, hiring, raises, launches, liens — for competitor teardowns and account research |
 | [web-traffic](plugins/hedwigai/skills/web-traffic/SKILL.md) | Estimated monthly Google organic visits for up to 1,000 domains at once |
 | [seo-rankings](plugins/hedwigai/skills/seo-rankings/SKILL.md) | Where a site ranks on Google for each keyword, who is above it, and the history |

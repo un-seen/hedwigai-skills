@@ -1,6 +1,6 @@
 {
   "name": "hedwigai",
-  "description": "Skills and the hedwigai MCP for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more.",
+  "description": "A system of record for the spreadsheets and documents your agent keeps, and skills for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more.",
   "owner": {
     "name": "hedwigai inc",
     "url": "https://hedwigai.com"
@@ -9,7 +9,7 @@
     {
       "name": "hedwigai",
       "source": "./plugins/hedwigai",
-      "description": "Skills and the hedwigai MCP for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more."
+      "description": "A system of record for the spreadsheets and documents your agent keeps, and skills for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more."
     }
   ]
 }

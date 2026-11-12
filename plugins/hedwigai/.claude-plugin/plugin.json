@@ -1,8 +1,8 @@
 {
   "name": "hedwigai",
   "displayName": "hedwigai",
-  "version": "0.5.0",
-  "description": "Cited answers from primary records through the hedwigai MCP — company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices, reference checks for theses and papers, LaTeX papers compiled to PDF, and more.",
+  "version": "0.6.0",
+  "description": "A system of record for the spreadsheets and documents your agent keeps — versioned, schema-checked workbooks, optionally linked to a file in Google Drive or Dropbox — and cited answers from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices, reference checks, LaTeX papers compiled to PDF, and more.",
   "author": {
     "name": "hedwigai inc",
     "email": "hello@hedwigai.com",
@@ -15,6 +15,11 @@
   "supportUrl": "https://github.com/un-seen/hedwigai-skills/issues",
   "privacyPolicyUrl": "https://hedwigai.com/privacy",
   "keywords": [
+    "dropbox",
+    "google-drive",
+    "spreadsheets",
+    "agent-state",
+    "system-of-record",
     "market-research",
     "hiring",
     "seo",
