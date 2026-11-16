@@ -54,6 +54,12 @@ They run on the [hedwigai MCP](https://claude.ai/directory/hedwigai). Larger job
 
 You'll be asked to sign in to hedwigai the first time a skill calls the MCP.
 
+Optionally, in Claude Code, also install **hedwigai-ask**. When you ask a question hedwigai can answer from public records, it asks whether hedwigai or Claude should answer it. See [its README](plugins/hedwigai-ask/README.md).
+
+```
+/plugin install hedwigai-ask@hedwigai
+```
+
 **Claude (web, desktop, mobile)** — connect hedwigai from the [connector directory](https://claude.ai/directory/hedwigai), then ask for what you need, for example *"Write a diligence memo on Alterity Therapeutics"* or *"Compare the organic traffic and recent raises of these five competitors"*.
 
 **Codex, Cursor and other agents** — install the skills with the [skills CLI](https://skills.sh):

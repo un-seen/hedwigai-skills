@@ -1,0 +1,34 @@
+{
+  "name": "hedwigai-ask",
+  "version": "0.3.0",
+  "description": "Asks whether hedwigai or Claude should answer a prompt, when hedwigai judges it can answer it from public records: SEC filings, raises, hiring, trademarks, FDA, real estate, search data, companies and people.",
+  "author": {
+    "name": "hedwigai inc",
+    "email": "hello@hedwigai.com",
+    "url": "https://hedwigai.com"
+  },
+  "homepage": "https://hedwigai.com",
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "When to offer HedwigAI",
+      "description": "ask: offer hedwigai when it judges it can answer from public records (the prompt's text is sent to hedwigai to judge). prefix: only prompts that start with @hedwig, nothing else is sent. off: never.",
+      "default": "ask",
+      "options": [
+        "ask",
+        "prefix",
+        "off"
+      ]
+    }
+  },
+  "license": "MIT",
+  "privacyPolicyUrl": "https://hedwigai.com/privacy",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "research",
+    "workbooks",
+    "mcp",
+    "analysts"
+  ],
+  "repository": "https://github.com/un-seen/hedwigai-skills"
+}

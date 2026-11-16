@@ -10,6 +10,11 @@
       "name": "hedwigai",
       "source": "./plugins/hedwigai",
       "description": "A system of record for the spreadsheets and documents your agent keeps, and skills for research from primary records: company signals, web traffic, SEO rankings, lead lists, hiring, launches, social, SEC and FDA records, imports, rents, model prices and more."
+    },
+    {
+      "name": "hedwigai-ask",
+      "source": "./plugins/hedwigai-ask",
+      "description": "For Claude Code: when a prompt is a question hedwigai can answer from public records, asks whether hedwigai or Claude should answer it."
     }
   ]
 }
