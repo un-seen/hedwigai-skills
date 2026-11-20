@@ -5,11 +5,11 @@ description: "Biotech and biopharma due diligence with a cited source for every 
 
 # Biotech diligence
 
-Produces a diligence memo on a biotech company as a hedwigai **workbook**: a living document a research run writes from primary sources, with a citation on every claim, that flags when a cited source changes.
+Produces a diligence memo on a biotech company as a hedwigai **workbook**: a living document a research run writes from primary sources, with a citation on every claim, that a later run can refresh from the same sources.
 
 ## Before you start
 
-This skill uses the hedwigai MCP tools (`create_workbook`, `ask`, `read_workbook`, `workbook_sources`, `recheck_sources`). If they aren't available, tell the user to connect hedwigai — in Claude, from https://claude.ai/directory/hedwigai; in Claude Code, this plugin already declares the server and asks them to sign in on first use. Don't fall back to writing the memo from memory.
+This skill uses the hedwigai MCP tools (`find_workbooks`, `create_workbook`, `ask`, `read_workbook`, `run_workbook`). If they aren't available, tell the user to connect hedwigai — in Claude, from https://claude.ai/directory/hedwigai; in Claude Code, this plugin already declares the server and asks them to sign in on first use; anywhere else, add `https://mcp.hedwigai.com/` as a remote MCP server. Don't fall back to writing the memo from memory.
 
 Workbook runs are billed to the user's hedwigai account (the first workbook is covered by sign-up credit). Reading, searching and editing workbooks is free. Say so before starting a run.
 
@@ -24,8 +24,8 @@ For a single fact — "What is X's lead program?", "Is X a biotech with public f
    `Diligence memo on Alterity Therapeutics (NASDAQ:ATHE): pipeline and programs table, lead program clinical data, competitors and standard of care per indication, cash runway, key risks.`
    Put it in a folder such as `Diligence`. Attach any data-room files the user gives you with `attachments` so the run reads and cites them.
 3. The run collects the standard source set: investor presentations; literature and posters linked from the company site; 10-K and 10-Q filings; prescribing information for the company's approved drugs and for competitor and standard-of-care drugs; PubMed and Google Scholar results on the same indication and mechanism; ClinicalTrials.gov entries.
-4. Runs take minutes. When it finishes, `read_workbook` and summarise the findings for the user, quoting the memo's own citations. Use `workbook_sources` if they want the source list.
-5. Later, `recheck_sources` reports which cited sources have moved since the memo was written.
+4. Runs take minutes. When it finishes, `read_workbook` and summarise the findings for the user, quoting the memo's own citations. If they want the source list, `read_workbook` with `section` set to the memo's sources or references.
+5. Later, to bring the memo up to date, call `run_workbook` with an instruction such as `Refresh the memo from the latest 10-Q, trial registry entries and labels; note what changed.` This starts a billed run, so say so first.
 
 ## PTRS and landscape
 
