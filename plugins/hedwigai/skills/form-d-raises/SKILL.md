@@ -9,7 +9,7 @@ Searches SEC Form D notices of exempt offerings through the `funding` program in
 
 ## Before you start
 
-This skill uses the hedwigai MCP's `bash` tool. If it isn't available, tell the user to connect hedwigai — in Claude, from https://claude.ai/directory/hedwigai; in Claude Code, this plugin already declares the server.
+This skill uses the hedwigai MCP's `bash` tool. If it isn't available, tell the user to connect hedwigai — in Claude, from https://claude.ai/directory/hedwigai; in Claude Code, this plugin already declares the server; anywhere else, add `https://mcp.hedwigai.com/` as a remote MCP server.
 
 Some programs are metered against the account's prepaid credits. `programs list` shows what each one bills.
 
